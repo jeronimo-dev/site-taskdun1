@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-label="Taskdun brand icon representing the synergy between human and artificial intelligence.">
+  <defs>
+    <!-- Teal glow effect for the AI element -->
+    <filter id="ai-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur" />
+    </filter>
+    
+    <!-- A slight shadow for depth on the human element -->
+    <filter id="human-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- The "Human" element: A clean, white, slightly open circle. Represents openness and the human touch. -->
+  <path 
+    d="M 85 50 A 35 35 0 1 1 50 15" 
+    fill="none" 
+    stroke="#F5F7FA" 
+    stroke-width="8" 
+    stroke-linecap="round"
+    filter="url(#human-shadow)"
+    />
+
+  <!-- The "AI" element: A sharp, geometric, glowing teal shape. Represents technology and precision. -->
+  <path 
+    d="M 15 50 A 35 35 0 0 1 50 85" 
+    fill="none" 
+    stroke="#43D9C9" 
+    stroke-width="8" 
+    stroke-linecap="round" 
+    />
+  
+  <!-- The glow is applied separately to avoid blurring the stroke itself -->
+  <path 
+    d="M 15 50 A 35 35 0 0 1 50 85" 
+    fill="none" 
+    stroke="#43D9C9" 
+    stroke-width="9" 
+    stroke-linecap="round" 
+    filter="url(#ai-glow)"
+    opacity="0.7"
+    />
+
+  <!-- Central point of synergy, connecting both elements -->
+  <circle cx="50" cy="50" r="6" fill="#A0AEC0" />
+</svg>

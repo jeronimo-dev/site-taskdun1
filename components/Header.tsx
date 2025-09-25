@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({ onManifestoClick }) => {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center space-x-2">
-              <img src="https://srv1916-files.hstgr.io/af3ba4d703c24b83/files/public_html/Nlogo%20Taskdun.png" alt="Taskdun Logo" className="h-10" />
+              <img src="https://srv1916-files.hstgr.io/a348851f00e7054e/api/preview/big/public_html/Pics/Nlogo%20Taskdun.png?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJsb2NhbGUiOiJlbl9HQiIsInZpZXdNb2RlIjoibGlzdCIsInNpbmdsZUNsaWNrIjpmYWxzZSwicGVybSI6eyJhZG1pbiI6ZmFsc2UsImV4ZWN1dGUiOmZhbHNlLCJjcmVhdGUiOnRydWUsInJlbmFtZSI6dHJ1ZSwibW9kaWZ5Ijp0cnVlLCJkZWxldGUiOnRydWUsInNoYXJlIjpmYWxzZSwiZG93bmxvYWQiOnRydWV9LCJjb21tYW5kcyI6W10sImxvY2tQYXNzd29yZCI6dHJ1ZSwiaGlkZURvdGZpbGVzIjpmYWxzZSwiZGF0ZUZvcm1hdCI6ZmFsc2V9LCJpc3MiOiJGaWxlIEJyb3dzZXIiLCJleHAiOjE3NTg3ODU5NTQsImlhdCI6MTc1ODc3ODc1NH0.IJr3m-EL3isQGabokuHdarMQtyEAE5jbzHBI65WC3nk&inline=true&key=1758759869913" alt="Taskdun Logo" className="h-10" />
             </a>
           </div>
           <div className="hidden md:block">

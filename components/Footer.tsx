@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onManifestoClick }) => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
              <a href="#" className="flex items-center space-x-2">
-              <img src="https://srv1916-files.hstgr.io/af3ba4d703c24b83/files/public_html/Nlogo%20Taskdun.png" alt="Taskdun Logo" className="h-12" />
+              <img src="https://srv1916-files.hstgr.io/a348851f00e7054e/api/preview/big/public_html/Pics/Nlogo%20Taskdun.png?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJsb2NhbGUiOiJlbl9HQiIsInZpZXdNb2RlIjoibGlzdCIsInNpbmdsZUNsaWNrIjpmYWxzZSwicGVybSI6eyJhZG1pbiI6ZmFsc2UsImV4ZWN1dGUiOmZhbHNlLCJjcmVhdGUiOnRydWUsInJlbmFtZSI6dHJ1ZSwibW9kaWZ5Ijp0cnVlLCJkZWxldGUiOnRydWUsInNoYXJlIjpmYWxzZSwiZG93bmxvYWQiOnRydWV9LCJjb21tYW5kcyI6W10sImxvY2tQYXNzd29yZCI6dHJ1ZSwiaGlkZURvdGZpbGVzIjpmYWxzZSwiZGF0ZUZvcm1hdCI6ZmFsc2V9LCJpc3MiOiJGaWxlIEJyb3dzZXIiLCJleHAiOjE3NTg3ODU5NTQsImlhdCI6MTc1ODc3ODc1NH0.IJr3m-EL3isQGabokuHdarMQtyEAE5jbzHBI65WC3nk&inline=true&key=1758759869913" alt="Taskdun Logo" className="h-12" />
             </a>
             <p className="text-base text-[#A0AEC0]">
               Arquitetando ecossistemas de Inteligência Artificial & Humana (IA&H).

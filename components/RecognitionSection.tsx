@@ -40,7 +40,7 @@ export const RecognitionSection: React.FC = () => {
                     </div>
                      <div className="flex justify-center">
                         <img 
-                            src="https://srv1916-files.hstgr.io/af3ba4d703c24b83/files/public_html/TASK4.png"
+                            src="https://srv1916-files.hstgr.io/a348851f00e7054e/api/preview/big/public_html/Pics/TASK4.png?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJsb2NhbGUiOiJlbl9HQiIsInZpZXdNb2RlIjoibGlzdCIsInNpbmdsZUNsaWNrIjpmYWxzZSwicGVybSI6eyJhZG1pbiI6ZmFsc2UsImV4ZWN1dGUiOmZhbHNlLCJjcmVhdGUiOnRydWUsInJlbmFtZSI6dHJ1ZSwibW9kaWZ5Ijp0cnVlLCJkZWxldGUiOnRydWUsInNoYXJlIjpmYWxzZSwiZG93bmxvYWQiOnRydWV9LCJjb21tYW5kcyI6W10sImxvY2tQYXNzd29yZCI6dHJ1ZSwiaGlkZURvdGZpbGVzIjpmYWxzZSwiZGF0ZUZvcm1hdCI6ZmFsc2V9LCJpc3MiOiJGaWxlIEJyb3dzZXIiLCJleHAiOjE3NTg3ODU5NTQsImlhdCI6MTc1ODc3ODc1NH0.IJr3m-EL3isQGabokuHdarMQtyEAE5jbzHBI65WC3nk&inline=true&key=1758758430394"
                             alt="Placa de metal com o logo da Taskdun ao lado de uma placa do Google for Startups, simbolizando prestígio e reconhecimento."
                             className="rounded-2xl shadow-lg w-full max-w-md object-cover aspect-square border border-[#A0AEC0]/20"
                             loading="lazy"

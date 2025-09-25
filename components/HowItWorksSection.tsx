@@ -40,7 +40,7 @@ export const ApplicationsSection: React.FC = () => {
 
         <div className="my-16 flex justify-center">
             <img 
-                src="https://srv1916-files.hstgr.io/af3ba4d703c24b83/files/public_html/TASK3.png"
+                src="https://srv1916-files.hstgr.io/a348851f00e7054e/api/preview/big/public_html/Pics/TASK3.png?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJsb2NhbGUiOiJlbl9HQiIsInZpZXdNb2RlIjoibGlzdCIsInNpbmdsZUNsaWNrIjpmYWxzZSwicGVybSI6eyJhZG1pbiI6ZmFsc2UsImV4ZWN1dGUiOmZhbHNlLCJjcmVhdGUiOnRydWUsInJlbmFtZSI6dHJ1ZSwibW9kaWZ5Ijp0cnVlLCJkZWxldGUiOnRydWUsInNoYXJlIjpmYWxzZSwiZG93bmxvYWQiOnRydWV9LCJjb21tYW5kcyI6W10sImxvY2tQYXNzd29yZCI6dHJ1ZSwiaGlkZURvdGZpbGVzIjpmYWxzZSwiZGF0ZUZvcm1hdCI6ZmFsc2V9LCJpc3MiOiJGaWxlIEJyb3dzZXIiLCJleHAiOjE3NTg3ODU5NTQsImlhdCI6MTc1ODc3ODc1NH0.IJr3m-EL3isQGabokuHdarMQtyEAE5jbzHBI65WC3nk&inline=true&key=1758758430547"
                 alt="Visão cósmica com uma estrela central se conectando a diferentes planetas holográficos, representando a aplicabilidade universal do framework em diversos setores."
                 className="rounded-2xl shadow-lg max-w-3xl w-full object-cover aspect-video border border-[#A0AEC0]/20"
                 loading="lazy"

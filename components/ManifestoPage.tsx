@@ -17,7 +17,7 @@ export const ManifestoPage: React.FC<ManifestoPageProps> = ({ onClose }) => {
             font-family: 'Source Serif 4', serif;
         }
         .manifesto-hero-image {
-            background-image: url('https://storage.googleapis.com/gemini-prod-us-west1-423901735189/uploads/2024/04/18/48f07096e22c9233.jpg');
+            background-image: url('https://srv1916-files.hstgr.io/a348851f00e7054e/api/preview/big/public_html/Pics/O%20pacto.008Z.png?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJsb2NhbGUiOiJlbl9HQiIsInZpZXdNb2RlIjoibGlzdCIsInNpbmdsZUNsaWNrIjpmYWxzZSwicGVybSI6eyJhZG1pbiI6ZmFsc2UsImV4ZWN1dGUiOmZhbHNlLCJjcmVhdGUiOnRydWUsInJlbmFtZSI6dHJ1ZSwibW9kaWZ5Ijp0cnVlLCJkZWxldGUiOnRydWUsInNoYXJlIjpmYWxzZSwiZG93bmxvYWQiOnRydWV9LCJjb21tYW5kcyI6W10sImxvY2tQYXNzd29yZCI6dHJ1ZSwiaGlkZURvdGZpbGVzIjpmYWxzZSwiZGF0ZUZvcm1hdCI6ZmFsc2V9LCJpc3MiOiJGaWxlIEJyb3dzZXIiLCJleHAiOjE3NTg3ODU5NTQsImlhdCI6MTc1ODc3ODc1NH0.IJr3m-EL3isQGabokuHdarMQtyEAE5jbzHBI65WC3nk&inline=true&key=1758779044818');
             background-size: cover;
             background-position: center;
         }
@@ -82,12 +82,24 @@ export const ManifestoPage: React.FC<ManifestoPageProps> = ({ onClose }) => {
 
                         <h2>Princípio 1: A Lógica da Realidade e o Foco no Controlável</h2>
                         <p>O medo é um eco do desconhecido. A lógica da realidade nos aponta que os grandes players deste mercado não estão jogando para perder ou para criar o caos; eles estão construindo soluções para as demandas do mundo. Para o resto, os filósofos estóicos nos legaram a mais poderosa ferramenta para a clareza mental: a <strong>Dicotomia de Controle</strong>.</p>
+                        <img 
+                            src="https://srv1916-files.hstgr.io/a348851f00e7054e/api/preview/big/public_html/Pics/Dicotomia.745Z.png?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJsb2NhbGUiOiJlbl9HQiIsInZpZXdNb2RlIjoibGlzdCIsInNpbmdsZUNsaWNrIjpmYWxzZSwicGVybSI6eyJhZG1pbiI6ZmFsc2UsImV4ZWN1dGUiOmZhbHNlLCJjcmVhdGUiOnRydWUsInJlbmFtZSI6dHJ1ZSwibW9kaWZ5Ijp0cnVlLCJkZWxldGUiOnRydWUsInNoYXJlIjpmYWxzZSwiZG93bmxvYWQiOnRydWV9LCJjb21tYW5kcyI6W10sImxvY2tQYXNzd29yZCI6dHJ1ZSwiaGlkZURvdGZpbGVzIjpmYWxzZSwiZGF0ZUZvcm1hdCI6ZmFsc2V9LCJpc3MiOiJGaWxlIEJyb3dzZXIiLCJleHAiOjE3NTg3ODU5NTQsImlhdCI6MTc1ODc3ODc1NH0.IJr3m-EL3isQGabokuHdarMQtyEAE5jbzHBI65WC3nk&inline=true&key=1758779044860" 
+                            alt="Diagrama da Dicotomia de Controle, mostrando o que está e o que não está sob nosso controle." 
+                            className="my-8 rounded-lg shadow-xl w-full" 
+                            loading="lazy"
+                        />
                         <div className="manifesto-highlight">
                             <p>Classifique o universo em duas categorias: o que você controla e o que você não controla. Onde você colocará sua energia? No medo paralisante do incontrolável ou na ação empoderadora sobre o que lhe pertence? A escolha define seu futuro.</p>
                         </div>
 
                         <h2>Princípio 2: A Mentalidade do Pioneiro e a Coragem de Agir</h2>
                         <p>A história não recompensa os espectadores. Henry Ford, Steve Jobs, Mark Zuckerberg... Nenhum deles inventou a tecnologia pela qual é lembrado. Mas eles entenderam seu potencial e agiram antes dos outros. Eles deram o salto. Para saltar, é preciso primeiro uma mentalidade: aproxime-se da IA com a inocência de quem "adentra a noite escura". Assuma que nada sabe. É neste vácuo que o aprendizado real acontece.</p>
+                        <img 
+                            src="https://srv1916-files.hstgr.io/a348851f00e7054e/api/preview/big/public_html/Pics/Curva%20de%20ado%C3%A7%C3%A3o.135Z.png?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJsb2NhbGUiOiJlbl9HQiIsInZpZXdNb2RlIjoibGlzdCIsInNpbmdsZUNsaWNrIjpmYWxzZSwicGVybSI6eyJhZG1pbiI6ZmFsc2UsImV4ZWN1dGUiOmZhbHNlLCJjcmVhdGUiOnRydWUsInJlbmFtZSI6dHJ1ZSwibW9kaWZ5Ijp0cnVlLCJkZWxldGUiOnRydWUsInNoYXJlIjpmYWxzZSwiZG93bmxvYWQiOnRydWV9LCJjb21tYW5kcyI6W10sImxvY2tQYXNzd29yZCI6dHJ1ZSwiaGlkZURvdGZpbGVzIjpmYWxzZSwiZGF0ZUZvcm1hdCI6ZmFsc2V9LCJpc3MiOiJGaWxlIEJyb3dzZXIiLCJleHAiOjE3NTg3ODU5NTQsImlhdCI6MTc1ODc3ODc1NH0.IJr3m-EL3isQGabokuHdarMQtyEAE5jbzHBI65WC3nk&inline=true&key=1758779044997" 
+                            alt="Gráfico da curva de adoção de tecnologia, ilustrando os diferentes grupos de adotantes." 
+                            className="my-8 rounded-lg shadow-xl w-full" 
+                            loading="lazy"
+                        />
                         <p>O padrão de adoção de tecnologias disruptivas é sempre o mesmo. Pense nisso como um mapa e escolha sua posição:</p>
                         <ul className="list-disc list-inside space-y-4">
                             <li><strong>Os Adotantes Iniciais:</strong> Saltam de forma planejada. Testam, validam e prosperam por se posicionarem na vanguarda. Eles definem as regras do novo jogo.</li>
